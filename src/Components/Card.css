@@ -1,0 +1,85 @@
+/* Card Section */
+.credit-cards {
+    padding-top: 200px;
+  }
+  
+  .cards-info {
+    padding: 60px;
+    position: relative;
+  }
+  
+  .cards-section-heading-p1 {
+    font-size: 36px;
+    color: #2e3131;
+  }
+  
+  .cards-section-heading-p2 {
+    font-size: 18px;
+    width: 50%;
+    color: #2e3131;
+  }
+  
+  .cards-section-bottom {
+    background-color: #e9ecf0;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    position: relative;
+  }
+  
+  .cards-section-ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cards-section-li {
+    margin-right: 60px;
+  }
+  
+  .cards-section-button {
+    border: none;
+    background-color: #f45369;
+    padding: 10px;
+    width: 280px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .cards-section-button:hover {
+    background-color: #ef3e42;
+  }
+  
+  .cards-section-image {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+  }
+  
+  .cards-section-button-a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .cards-section-p {
+    font-size: 30px;
+    color: #f45369;
+    font-weight: 500;
+  }
+  
+  .cards-section-chevron1 {
+    font-size: 26px;
+    position: absolute;
+    right: 180px;
+    top: 150px;
+  }
+  
+  .cards-section-chevron2 {
+    font-size: 26px;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+  }

@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 1024px){
+  /* Header Section */
+    .main-navigation {
+      display: none;
+    }
+    
+    /* Operation Section */
+    .quick-operations {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+      
+    }
+  
+    .operation-item {
+      width: 40%;
+      }
+    /* Card Section */
+    .credit-cards {
+      padding-top: 500px;
+    }
+    
+    /* Footer Section */
+    .row-footer {
+      flex-wrap: wrap;
+    }
+    .footer-qr-code,
+    .footer-title2 {
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1024px) {
+    .mobile-button {
+      display: none;
+    }
+  
+    .mobile-menu-button {
+      display: none;
+    }
+    
+  } 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+/* News Section */
+.latest-news {
+    background-color: #E8ECF1;
+    padding: 30px;
+  }
+  
+  .news-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 920px;
+  }
+  
+  .news-h1 {
+    font-size: 36px;
+    color: #2e3131;
+    font-weight: 600;
+    padding-bottom: 16px;
+  }
+  
+  .news-p {
+    font-weight: 300;
+    color: #F45369;
+  }
+  
+  .news-line {
+    background-color: #ffffff;
+    height: 2px;
+  }
+  
+  .news-circle {
+    border: 1px solid #F45369;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .news-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+  }
+  
+  .news-col1,
+  .news-col2,
+  .news-col3 {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin: 40px;
+  }
+  
+  .news-col-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .news-circle-p1 {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 15%;
+  }
+  
+  .news-circle-p2 {
+    padding-top: 8px;
+  }
+  
+  .news-p2 {
+    font-size: 18px;
+    padding-left: 40px;
+  }

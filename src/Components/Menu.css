@@ -1,0 +1,43 @@
+/* Menu Section */
+.main-menu {
+    background-color: #E8ECF1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu-a {
+    font-size: 14px;
+    color: #2e3131;
+    margin: 13px;
+    text-decoration: none;
+  }
+  
+  .menu-ul {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  
+  .menu-li {
+    position: relative;
+    display: inline-block;
+  }
+  .menu-button {
+    width: 100px;
+    height: 31px;
+    background-color: #f45369;
+    border-radius: 8px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 150px;
+    padding-top: 5px;
+  }
+  
+
+
+  

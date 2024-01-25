@@ -1,0 +1,84 @@
+/* Cash Loan Section */
+.cash-loans {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loan-info {
+    padding: 60px;
+    font-size: 36px;
+    padding-left: 520px;
+  }
+  
+  .cash-loan-section-image {
+    position: absolute;
+    bottom: 20px;
+    right: 900px;
+  }
+  
+  .cash-loan-section-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .cash-loan-section-bottom {
+    background-color: #e9ecf0;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .cash-loan-heading-p1 {
+    font-size: 36px;
+    color: #2e3131;
+  }
+  
+  .cash-loan-heading-p2 {
+    font-size: 18px;
+    padding-top: 20px;
+    color: #2e3131;
+  }
+  
+  .cash-loan-section-ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+  
+  .cash-loan-section-li {
+    padding-right: 120px;
+  }
+  
+  .cash-loan-section-p {
+    font-size: 30px;
+    color: #f45369;
+    font-weight: 500;
+  }
+  
+  .cash-loan-section-button {
+    border: none;
+    background-color: #f45369;
+    padding: 10px;
+    width: 280px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .cash-loan-section-button:hover {
+    background-color: #ef3e42;
+  }
+  
+  .cash-loan-section-button-a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+
+  

@@ -1,0 +1,130 @@
+/* Footer Section */
+.main-footer {
+    width: 100vw;
+    height: auto;
+    background-color: #2E3131;
+    padding: 60px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .row-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-li {
+    list-style: none;
+    line-height: 21px;
+    padding-top: 15px;
+    font-size: 15px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-qr-code {
+    padding-bottom: 20px;
+  }
+  
+  .footer-a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  li {
+    list-style: none;
+    line-height: 21px;
+  }
+  
+  .footer-title {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 30px;
+  }
+  
+  .footer-title2 {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 25px;
+  }
+  
+  .col {
+    width: 243px;
+    height: 385px;
+    margin: 16px;
+  }
+  
+  .footer-links-li {
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links-li-a {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+  }
+  
+  .footer-links-p {
+    color: #2e3131;
+  }
+  
+  .footer-social-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .footer-line {
+    background-color: #494949;
+    height: 1.5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .footer-row-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .b1 {
+    width: 50%;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+  }
+  

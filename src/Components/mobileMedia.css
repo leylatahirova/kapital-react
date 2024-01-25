@@ -1,0 +1,343 @@
+@media (max-width: 768px) {
+  
+    /* Header Section */
+    .main-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      gap: 0px;
+      padding: 15px;
+    }
+  
+    .bank-logo {
+      width: 170px;
+    }
+  
+    .main-navigation {
+      display: none;
+    }
+  
+    .mobile-button, .mobile-menu-button  {
+      display: block;
+
+    }
+   
+    
+  
+    /* Menu Section */
+    .main-menu {
+      display: none;
+    }
+  
+    /* Banner Section */
+    .promo-banner {
+      flex-direction: column;
+      padding: 230px 10px 230px 10px;
+    }
+  
+    .promo-banner-container {
+      flex-direction: column;
+      gap: 0px;
+    }
+  
+    .banner-image {
+      position: absolute;
+      bottom: 420px;
+    }
+  
+    .banner-p {
+      font-size: 34px;
+    }
+  
+    .banner-image1 {
+      width: 300px;
+    }
+  
+    .banner-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .banner-section-chevron1 {
+      display: none;
+    }
+  
+    .banner-section-chevron2 {
+      display: none;
+    }
+  
+    /* Operation Section */
+    .quick-operations {
+      flex-direction: column;
+      width: 90%;
+      padding: 0px;
+      margin: 20px;
+      top: 550px;
+      left: 0px;
+    }
+  
+    .operation-item {
+      width: 95%;
+      height: 90px;
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      margin: 10px;
+      padding-left: 20px;
+    }
+  
+    .operations-a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    /* Calculator Section */
+    .calculator-section {
+      padding: 30px;
+    }
+  
+    .calc-container {
+      flex-direction: column;
+    }
+  
+    .calc-left {
+      width: 100%;
+      padding-bottom: 60px;
+    }
+  
+    .calc-right {
+      width: 100%;
+    }
+  
+    /* Card Section */
+    .cards-info {
+      padding: 360px 10px 160px 10px;
+      justify-content: flex-start;
+    }
+  
+    .cards-section-bottom {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cards-section-button {
+      width: 100%;
+    }
+  
+    .cards-section-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cards-section-ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 210px;
+      text-align: center;
+    }
+  
+    .cards-section-image {
+      bottom: 360px;
+      right: 80px;
+    }
+    .cards-section-heading-p2 {
+      font-size: 18px;
+      width: 100%;
+      color: #2e3131;
+    }
+    .cards-section-chevron1 {
+      right: 480px;
+      top: 30px;
+    }
+    
+    .cards-section-chevron2 {
+      right: 20px;
+      top: 30px;
+    }
+    .credit-cards {
+      padding-top: 200px;
+    }
+  
+  
+    /* Cash Loan Section */
+   
+    .loan-info {
+      padding: 40px 10px 160px 10px;
+      align-items: first baseline;
+      justify-content: flex-start;
+    }
+  
+    .cash-loan-section-bottom {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cash-loan-section-button {
+      width: 100%;
+    }
+  
+    .cash-loan-section-image {
+      bottom: 380px;
+      right: 10px;
+    }
+  
+    .cash-loan-section-div {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cash-loan-section-ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 210px;
+      text-align: center;
+    }
+  
+    /* Information Section */
+    .info-section1 {
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+  
+    .online-payment {
+      width: 100%;
+      padding: 20px 20px 160px 20px;
+      border-radius: none;
+    }
+  
+    .online-payment-div3 {
+      bottom: -6px;
+      left: 150px;
+    }
+  
+    .hr-opportunities {
+      width: 100%;
+      padding: 20px 20px 160px 20px;
+    }
+  
+    .hr-opportunities-div3 {
+      bottom: -6px;
+      left: 240px;
+    }
+  
+    /* News Section */
+    .latest-news {
+      padding: 20px 0px 0px 0px;
+    }
+  
+    .news-col {
+      flex-direction: row;
+      padding: 30px;
+    }
+  
+    .news-col1 {
+      width: 80%;
+      margin: 0px;
+    }
+  
+    .news-col2,
+    news-col3 {
+      display: none;
+    }
+  
+    .news-heading {
+      justify-content: space-around;
+      gap: 60px;
+    }
+  
+    /* Currency Calculator Section */
+    .currency-calculator {
+      padding: 30px 15px 10px 15px;
+    }
+  
+    .currency-calculator-col1 {
+      display: none;
+    }
+  
+    .currency-calculator-col2 {
+      width: 100%;
+    }
+  
+    .currency-information-col1-p3 {
+      padding: 30px 0px 30px 0px;
+    }
+  
+    .currency-calculator-input {
+      width: 340px;
+    }
+  
+    /* Footer Section */
+    .main-footer {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .row-footer {
+      flex-wrap: wrap;
+    }
+  
+    .footer-qr-code,
+    .footer-title2 {
+      display: none;
+    }
+  
+    .footer-row-logo {
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+  
+    .col {
+      width: 35%;
+      height: auto;
+      margin: 36px;
+    }
+  
+    .footer-row {
+      flex-direction: column;
+      padding-bottom: 0px;
+    }
+  
+    .footer-line {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .b1 {
+      padding-top: 30px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer-main-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .footer-m{
+      padding-left: 250px;
+    }
+    .calc-right-button {
+      padding: 10px;
+      width: 100%;
+      height: auto;
+    }
+  }
