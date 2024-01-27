@@ -14,6 +14,8 @@
     flex-direction: row;
     width: 100vw;
     position: absolute;
+    z-index: 999;
+    transition: 0.3s ease all;
   }
   
   .dropdown-col1 {
@@ -36,6 +38,7 @@
   
   .dropdown-col1-li {
     padding-bottom: 20px;
+    cursor: pointer;
   }
   
   
@@ -50,9 +53,14 @@
   
   .menu-li:hover .drpdown {
     display: block;
-    right: 180px;
+    right: 150px;
   }
   .menu-li:hover .drpdown2 {
     display: block;
     right: 273px;
+  }
+
+
+  .dropdown-col1-li:hover{
+    color:#f45369;
   }
