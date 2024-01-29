@@ -4,7 +4,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 60px;
+    padding-inline: 120px;
+    padding-block: 20px;
   }
   
   .nav-ul {
@@ -25,6 +26,7 @@
     text-decoration: none;
     font-weight: 200;
   }
+  
   /* responsive button  */
   .mobileButton{
     display: flex;

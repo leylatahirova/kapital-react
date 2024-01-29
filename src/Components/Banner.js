@@ -1,24 +1,26 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
 import './Banner.css';
 import bannerImage1 from '../kptl/kb-life1703580859.png';
 import bannerImage2 from '../kptl/depozit-91701777566.png';
 import bannerImage3 from '../kptl/ipoteka-krediti1655890221.png';
-import bannerImage4 from '../kptl/heftesonu-is-rejimi1639578179.webp';
+// import bannerImage4 from '../kptl/heftesonu-is-rejimi1639578179.webp';
 
 
 export default function Banner() {
   const [currentBanner, setCurrentBanner] = useState(0);
   const bannerImages = [
-    { path: bannerImage1, width: '500px'},
-    { path: bannerImage2, width: '313px'},
-    { path: bannerImage3, width: '313px'},
-    { path: bannerImage4, width: '500px'},
+    { path: bannerImage1, width: '500px', },
+    { path: bannerImage2, width: '313px',  },
+    { path: bannerImage3, width: '313px' ,},
+    // { path: bannerImage4, width: '500px', },
   ];
+
   const bannerTexts = [
-    { title: 'Karyera imkanları', description: '"Kapital Bank Life" səhifəmizdə!', titleFontSize: '34px', descriptionFontSize: '34px' },
+    { title: 'Karyera imkanları', description: '"Kapital Bank Life" səhifəmizdə!', titleFontSize: '36px', descriptionFontSize: '32px' },
     { title: 'Yüksəlmiş faizlə', description: 'gəliriniz çoxalsın!', titleFontSize: '34px', descriptionFontSize: '34px'  },
     { title: 'İpoteka krediti', description: 'Mənzil sahibi olmaq və ya yeniləmək istəyənlər üçün', titleFontSize: '34px', descriptionFontSize: '18px'  },
-    { title: 'Həftəsonu iş rejimi', description: 'Bir çox filiallarımız şənbə və bazar günü də fəaliyyət göstərir',titleFontSize: '34px', descriptionFontSize: '18px' }
+    // { title: 'Həftəsonu iş rejimi', description: 'Bir çox filiallarımız şənbə və bazar günü də fəaliyyət göstərir',titleFontSize: '34px', descriptionFontSize: '18px' }
   ];
 
   const handlePrevBanner = () => {
@@ -35,12 +37,12 @@ export default function Banner() {
         <div className="banner-text">
           <p 
               className="banner-p" 
-              style={{ fontWeight: 700, color: '#2e3131', fontSize: bannerTexts[currentBanner].titleFontSize }}>
+              style={{ fontWeight: 800, color: '#2e3131', fontSize: bannerTexts[currentBanner].titleFontSize }}>
             {bannerTexts[currentBanner].title}
           </p>
           <p 
               className="banner-p" 
-              style={{ fontWeight: 500, color: '#2e3131', fontSize: bannerTexts[currentBanner].descriptionFontSize }}>
+              style={{ fontWeight: 600, color: '#2e3131', fontSize: bannerTexts[currentBanner].descriptionFontSize }}>
             {bannerTexts[currentBanner].description}
           </p>
           <button className="banner-button">Daha ətraflı</button>

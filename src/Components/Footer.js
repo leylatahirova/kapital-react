@@ -178,7 +178,7 @@ export default function Footer() {
     <div className="footer-main-row">
         <div className="footer-row">
             <div>
-                <p style={{color: "#ffffff"}}>© 2024 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</p>
+                <p className="b2" style={{color: "#ffffff"}}>© 2024 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</p>
             </div>
             <div className="footer-row-logo">
                 <div>

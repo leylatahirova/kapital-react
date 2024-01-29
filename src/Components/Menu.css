@@ -1,13 +1,15 @@
 /* Menu Section */
-.main-menu {
+  .main-menu {
     background-color: #E8ECF1;
-    display: flex;
-    justify-content: center;
+    padding-inline: 80px;
+    padding-block: 20px;
   }
   
   .menu-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
   
   .menu-a {
@@ -17,25 +19,16 @@
     text-decoration: none;
   }
   
-  .menu-ul {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-  }
-  
   .menu-li {
     position: relative;
     display: inline-block;
   }
   .menu-button {
     width: 100px;
-    height: 31px;
+    padding: 5px;
     background-color: #f45369;
     border-radius: 8px;
     border: none;
-    margin-top: 25px;
-    margin-left: 150px;
-    padding-top: 5px;
   }
   
 

@@ -1,5 +1,5 @@
 .promo-banner {
-    padding: 30px 80px 130px 80px;
+    padding: 30px 120px 130px 120px;
     margin-top: 3px;
     background-color: #E8ECF1;
     position: relative;
@@ -10,10 +10,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .banner-p {
-    font-size: 38px;
   }
   
   .banner-button {
@@ -35,7 +31,7 @@
   .banner-image {
     transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
   }
-  
+ 
   .banner-image :hover {
     transform: scale(1.05);
     transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);

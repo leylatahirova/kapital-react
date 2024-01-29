@@ -1,85 +1,108 @@
 import React, { useState } from "react";
 import "./Menu.css";
-import "./MenuDropdown.css";
 import kptlLogo from "../kptl/kptl1-01.svg";
+import MenuDropdown from "./MenuDropdown";
 
 export default function Menu({ isSearchOpen }) {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [activeItem, setActiveItem] = useState(null);
   const menuClass = isSearchOpen ? "hide" : "";
 
-    const handleMouseEnter = () => {
-    setIsDropdownOpen(true);
+  const handleItemClick = (item) => {
+    setActiveItem(activeItem === item ? null : item);
   };
 
-  const handleMouseLeave = () => {
-    setIsDropdownOpen(false);
+  const dropdownStyles = {
+    cards: { position: "absolute", left: "100px" },
+    loans: { position: "absolute", left: "200px" },
+    mortgages: { position: "absolute", left: "-300px" },
   };
 
   return (
     <div className={`main-menu ${menuClass}`}>
       <div className="menu-container">
         <ul className="menu-ul">
-          <li 
-            className="menu-li"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
+          <li
+            className={`menu-li ${activeItem === "cards" ? "active" : ""}`}
+            onMouseEnter={() => setActiveItem("cards")}
+            onMouseLeave={() => setActiveItem(null)}
           >
-            <a className="menu-a" href="https://www.kapitalbank.az/cards">KARTLAR</a>
-            {isDropdownOpen && (
-                 <div className="dropdown-content">
-                 <div className="dropdown-col1">
-                   <ul className="dropdown-col1-ul1">
-                     <li className="dropdown-col1-li" style={{ fontWeight: 600 }}>Taksit kartlar</li>
-                     <li className="dropdown-col1-li" style={{ fontWeight: 600 }}>Debet kartlar</li>
-                     <li className="dropdown-col1-li" style={{ fontWeight: 600 }}>Hədiyyə kartı</li>
-                     <li className="dropdown-col1-li">Kartlar üzrə xidmətlər</li>
-                   </ul>
-                   <ul className="dropdown-col1-ul2">
-                     <li className="dropdown-col1-li">Təhlükəsizlik qaydaları</li>
-                     <li className="dropdown-col1-li">3D secure</li>
-                     <li className="dropdown-col1-li">Kart sifarişi</li>
-                   </ul>
-                 </div>
-                 <div className="dropdown-col2">
-                   <div className="drp-c1">
-                     <h2>Birbank Cashback taksit</h2>
-                     <p style={{ paddingBottom: '30px' }}>Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan keşbek, faizsiz və komissiyasız taksit imkanı verən unikal bir kartdır.</p>
-                     <button className="dropdown-button">Bir kliklə sifariş et</button>
-                   </div>
-                   <div>
-                     <img src="./kptl/birbank-cashback-debet1656680037.png" width="130px" alt="" />
-                   </div>
-                 </div>
-               </div>
+            <a className="menu-a" href="https://www.kapitalbank.az/cards">
+              KARTLAR
+            </a>
+            {activeItem === "cards" && (
+              <MenuDropdown style={dropdownStyles.cards} />
             )}
           </li>
-          <li className="menu-li">
+          <li
+            className={`menu-li ${activeItem === "loans" ? "active" : ""}`}
+            onMouseEnter={() => setActiveItem("loans")}
+            onMouseLeave={() => setActiveItem(null)}
+          >
             <a className="menu-a" href="https://www.kapitalbank.az/loans">
               KREDİTLƏR
             </a>
+            {activeItem === "loans" && (
+              <MenuDropdown style={dropdownStyles.cards} />
+            )}
           </li>
           <li className="menu-li">
-            <a className="menu-a" href="https://ipoteka.kapitalbank.az/?tvr_id=22dc02e1-44a1-4394-aed7-ceaa1ea7d4cf">
+            <a
+              className="menu-a"
+              href="https://ipoteka.kapitalbank.az/?tvr_id=22dc02e1-44a1-4394-aed7-ceaa1ea7d4cf"
+            >
               İPOTEKALAR
             </a>
           </li>
-          <li className="menu-li">
+          <li
+            className={`menu-li ${activeItem === "deposits" ? "active" : ""}`}
+            onMouseEnter={() => setActiveItem("deposits")}
+            onMouseLeave={() => setActiveItem(null)}
+          >
             <a className="menu-a" href="https://www.kapitalbank.az/deposits">
               DEPOZİTLƏR
             </a>
+            {activeItem === "deposits" && (
+              <MenuDropdown style={dropdownStyles.deposits} />
+            )}
           </li>
-          <li className="menu-li">
-            <a className="menu-a" href="https://www.kapitalbank.az/money-transfers">
+          <li
+            className={`menu-li ${
+              activeItem === "moneyTransfer" ? "active" : ""
+            }`}
+            onMouseEnter={() => setActiveItem("moneyTransfer")}
+            onMouseLeave={() => setActiveItem(null)}
+          >
+            <a
+              className="menu-a"
+              href="https://www.kapitalbank.az/money-transfers"
+            >
               PUL KÖÇÜRMƏLƏRİ
             </a>
+            {activeItem === "moneyTransfer" && (
+              <MenuDropdown style={dropdownStyles.moneyTransfer} />
+            )}
           </li>
-          <li className="menu-li">
-            <a className="menu-a" href="https://www.kapitalbank.az/online-order">
+          <li 
+              className={`menu-li ${
+              activeItem === "onlineServices" ? "active" : ""
+            }`}
+            onMouseEnter={() => setActiveItem("onlineServices")}
+            onMouseLeave={() => setActiveItem(null)}>
+            <a
+              className="menu-a"
+              href="https://www.kapitalbank.az/online-order"
+            >
               ONLAYN XİDMƏTLƏR
             </a>
+            {activeItem === "onlineServices" && (
+              <MenuDropdown style={dropdownStyles.onlineServices} />
+            )}
           </li>
           <li className="menu-li">
-            <a className="menu-a" href="https://www.kapitalbank.az/kampaniyalar">
+            <a
+              className="menu-a"
+              href="https://www.kapitalbank.az/kampaniyalar"
+            >
               KAMPANİYALAR
             </a>
           </li>

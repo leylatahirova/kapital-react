@@ -12,7 +12,7 @@ const cardData = [
     heading: 'Birbank Cashback taksit',
     description: 'Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan keşbek, faizsiz və komissiyasız taksit imkanı verən unikal bir kartdır.',
     features: [
-      { text: '30%-dək keşbek və 2 qat ƏDV', subText: 'Bonus' },
+      { text: '30%-dək keşbek', subText: 'Bonus' },
       { text: 'pulsuz', subText: 'Kartın qiyməti' },
       { text: '63 günədək', subText: 'Güzəşt müddəti' },
     ],
@@ -82,8 +82,8 @@ export default function Card() {
           <ul className="cards-section-ul">
             {cardData[currentCard].features.map((feature, index) => (
               <li className="cards-section-li" key={index}>
-                <p style={{fontWeight: 'bold'}} className="cards-section-p">{feature.text}</p>
-                <br /> {feature.subText}
+                <p style={{fontWeight: 'bold', margin: '0', padding: '0'}} className="cards-section-p">{feature.text}</p>
+                <br style={{ margin: '0', padding: '0' }}/> {feature.subText}
               </li>
             ))}
           </ul>

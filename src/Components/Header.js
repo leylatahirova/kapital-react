@@ -17,7 +17,7 @@ export default function Header({ isSearchOpen }) {
     <header className={`main-header ${isSearchOpen ? "hide" : ""}`}>
       <div className="bank-logo">
         <a href="https://www.kapitalbank.az/">
-          <img className="bank-logo" src={logo} width="240px" alt="Kapital bank" />
+          <img className="bank-logo" src={logo} width="220px" alt="Kapital bank" />
         </a>
       </div>
       <nav className="main-navigation">

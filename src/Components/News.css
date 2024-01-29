@@ -7,9 +7,8 @@
   .news-heading {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 920px;
   }
   
   .news-h1 {
@@ -34,6 +33,9 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+  }
+  .news-circle:hover {
+    background-color: #F45369;
   }
   
   .news-col {
@@ -63,14 +65,22 @@
     font-size: 26px;
     text-align: center;
     padding-top: 15%;
+    cursor: pointer;
   }
-  
+  .news-circle-p1:hover {
+    color: #ffffff;
+  }
   
   .news-circle-p2 {
     padding-top: 8px;
   }
+
   
   .news-p2 {
     font-size: 18px;
     padding-left: 40px;
+    cursor: pointer;
+  }
+  .news-p2:hover {
+    color: #F45369;
   }

@@ -1,20 +1,54 @@
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import './News.css';
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import "./News.css";
 
 export default function News() {
   const newsItems = [
-    { day: 30, month: "Dekabr", content: "Birbank Biznes yeni 'Nağd təminatlı qarantiya' məhsulunu təqdim edir" },
-    { day: 30, month: "Dekabr", content: "Birbank Biznes yeni 'Nağd təminatlı qarantiya' məhsulunu təqdim edir" },
-    { day: 30, month: "Dekabr", content: "Birbank Biznes yeni 'Nağd təminatlı qarantiya' məhsulunu təqdim edir" }
+    {
+      day: 19,
+      month: "Dekabr",
+      content:
+        "Birbank Biznes yeni 'Nağd təminatlı qarantiya' məhsulunu təqdim edir",
+    },
+    {
+      day: 20,
+      month: "Dekabr",
+      content: " Kapital Bank “Euromoney” beynəlxalq forumunda iştirak etdi",
+    },
+    {
+      day: 21,
+      month: "Dekabr",
+      content: " Kapital Bank depozit faizlərini 10%-ə qaldırdı",
+    },
+    {
+      day: 22,
+      month: "Dekabr",
+      content: " Kapital Bank “Euromoney” beynəlxalq forumunda iştirak etdi",
+    },
+    {
+      day: 23,
+      month: "Dekabr",
+      content: " Kapital Bank depozit faizlərini 10%-ə qaldırdı ",
+    },
+    {
+      day: 24,
+      month: "Dekabr",
+      content: " Kapital Bank 2023-cü ilin nəticələrini elan edib ",
+    },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   const handleNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % newsItems.length);
+    setActiveSlide(
+      (prevSlide) => (prevSlide + 1) % Math.ceil(newsItems.length / 3)
+    );
   };
+
+  const startIndex = activeSlide * 3;
+  const endIndex = startIndex + 3;
+  const activeItems = newsItems.slice(startIndex, endIndex);
 
   return (
     <section className="latest-news">
@@ -23,15 +57,17 @@ export default function News() {
           <h1 className="news-h1">Xəbərlər</h1>
           <p className="news-p">
             Bütün xəbərlər&nbsp;
-            <FontAwesomeIcon icon={faChevronRight} style={{ color: "#f45369", }} onClick={handleNext} />
+            <FontAwesomeIcon
+              icon={faChevronRight}
+              style={{ color: "#f45369" }}
+              onClick={handleNext}
+            />
           </p>
         </div>
         <div className="news-line"></div>
         <div className="news-col">
-          {newsItems.map((item, index) => (
-            <div
-              className={`news-col2 ${index === activeIndex ? 'active' : ''}`} key={index}
-            >
+          {activeItems.map((item, index) => (
+            <div className={"news-col2"} key={index}>
               <div className="news-col-left">
                 <div className="news-circle">
                   <p className="news-circle-p1">{item.day}</p>
@@ -45,13 +81,12 @@ export default function News() {
               </div>
             </div>
           ))}
-         
+
           <FontAwesomeIcon
             icon={faChevronRight}
-            style={{ color: "#bdc3c7", fontSize: "26px" }}
+            style={{ color: "#bdc3c7", fontSize: "26px", cursor: "pointer" }}
             onClick={handleNext}
           />
-         
         </div>
       </div>
     </section>
