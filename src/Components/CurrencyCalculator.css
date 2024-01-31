@@ -2,7 +2,7 @@
 .currency-calculator {
   width: 100vw;
   height: auto;
-  padding: 30px 70px 70px 70px;
+  padding: 3% 8% 3% 8%;
 }
 
 .calculator-info {
@@ -78,7 +78,7 @@ td {
 }
 
 .currency-calculator-input {
-  width: 400px;
+  width: 350px;
   height: 40px;
   border-radius: 10px;
   border: none;

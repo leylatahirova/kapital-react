@@ -1,13 +1,17 @@
 /* Card Section */
 .credit-cards {
     padding-top: 200px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
   }
   
   .cards-info {
     padding: 60px;
     position: relative;
   }
-  
+
   .cards-section-heading-p1 {
     font-size: 36px;
     color: #2e3131;

@@ -3,14 +3,19 @@
     width: 100vw;
     height: auto;
     background-color: #2E3131;
-    padding: 60px;
   }
   
   .footer-container {
+    padding-inline: 8%;
+    padding-block: 3%;
+  }
+
+  .footer-container2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-inline: 8%;
+    padding-block: 3%;
   }
   
   .footer-social {
@@ -125,6 +130,7 @@
   .b1 {
     width: 50%;
     color: #FFFFFF;
-    padding-bottom: 20px;
+    font-size: 14px;
+
   }
   

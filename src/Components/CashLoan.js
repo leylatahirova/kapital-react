@@ -6,7 +6,7 @@ export default function CashLoans() {
   return (
     <section className="cash-loans">
       <div className="loan-info">
-        <p className="cash-loan-heading-p1">Nağd <strong>pul krediti</strong></p>
+        <p className="cash-loan-heading-p1">Nağd pul krediti</p>
         <p className="cash-loan-heading-p2">30000 AZN-dək, arzularınızı reallaşdırmaq və ya ehtiyaclarınızı ödəmək üçün nağd kredit təklif edirik.</p>
       </div>
       <div className="cash-loan-section-bottom">
@@ -17,15 +17,15 @@ export default function CashLoans() {
           <ul className="cash-loan-section-ul">
             <li className="cash-loan-section-li">
               <p className="cash-loan-section-p" style={{fontWeight: 'bold'}}>30 000 AZN-dək</p>
-              <br style={{ paddingBottom: "40px" }} />Kredit məbləği
+              <p style={{paddingBottom: "10px"}}>Kredit məbləği</p>
             </li>
             <li className="cash-loan-section-li">
               <p className="cash-loan-section-p" style={{fontWeight: 'bold'}}>59 ayadək</p>
-              <br />Kredit müddəti
+              <p style={{paddingBottom: "10px"}}>Kredit müddəti</p>
             </li>
             <li className="cash-loan-section-li">
               <p className="cash-loan-section-p" style={{fontWeight: 'bold'}}>10.9%-dən</p>
-              <br />İllik faiz dərəcəsi
+              <p style={{paddingBottom: "10px"}}>İllik faiz dərəcəsi</p>
             </li>
           </ul>
           <button className="cash-loan-section-button">

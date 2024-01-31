@@ -4,8 +4,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 120px;
-    padding-block: 20px;
+    padding-inline: 8%;
+    padding-block: 1.5%;
   }
   
   .nav-ul {

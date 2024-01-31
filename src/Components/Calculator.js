@@ -73,8 +73,8 @@ export default function Calculator() {
             style={{ display: "flex", justifyContent: "space-between" }}
             className="range-values"
           >
-            <p>300</p>
-            <p>30 000</p>
+            <p style={{fontSize: "14px"}}>300</p>
+            <p style={{fontSize: "14px"}}>30 000</p>
           </div>
           <div>
             <input
@@ -95,8 +95,8 @@ export default function Calculator() {
             style={{ display: "flex", justifyContent: "space-between" }}
             className="range-values"
           >
-            <p>10.9%</p>
-            <p>20%</p>
+            <p style={{fontSize: "14px"}}>10.9%</p>
+            <p style={{fontSize: "14px"}}>20%</p>
           </div>
           <div>
             <input
@@ -117,8 +117,8 @@ export default function Calculator() {
             style={{ display: "flex", justifyContent: "space-between" }}
             className="range-values"
           >
-            <p>3 ay</p>
-            <p>59 ay</p>
+            <p style={{fontSize: "14px"}}>3 ay</p>
+            <p style={{fontSize: "14px"}}>59 ay</p>
           </div>
         </div>
         <div className="calc-right">

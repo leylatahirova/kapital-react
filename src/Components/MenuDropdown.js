@@ -1,12 +1,11 @@
-import React, { useState } from "react";
 import "./MenuDropdown.css";
 import cashbackDebet from "../kptl/birbank-cashback-debet1656680037.png";
 import dailyLoan from "../kptl/daily-loan3.png";
 import deposite from "../kptl/depozit-2.png";
 import bblogo from "../kptl/bblogo.png";
 
-export default function DropdownContent() {
-  const [dropdownData, setDropdownData] = useState([
+export default function DropdownContent({ selectedIndex }) {
+  const dropdownData = [
     {
       items: [
         "Taksit kartlar",
@@ -24,7 +23,6 @@ export default function DropdownContent() {
       buttonText: "Bir kliklə sifariş et",
       image: cashbackDebet,
     },
-
     {
       items: [
         "Nağd kreditin maksimal məbləğini artırdıq!",
@@ -39,7 +37,6 @@ export default function DropdownContent() {
       buttonText: "Bir kliklə sifariş et",
       image: dailyLoan,
     },
-
     {
       items: ["Kapital depoziti", "Müddətsiz depozit", "Depozit seyfləri"],
       title: "Kapital depoziti",
@@ -48,7 +45,6 @@ export default function DropdownContent() {
       buttonText: "Daha ətraflı",
       image: deposite,
     },
-
     {
       items: ["Birbank", "Xəzri", "Zolotaya Korona", "Western Union"],
       title: "Birbank",
@@ -57,7 +53,6 @@ export default function DropdownContent() {
       buttonText: "Daha ətraflı",
       image: bblogo,
     },
-
     {
       items: [
         "Taksit kartlar",
@@ -75,9 +70,9 @@ export default function DropdownContent() {
       buttonText: "Bir kliklə sifariş et",
       image: cashbackDebet,
     },
-  ]);
+  ];
 
-  const { items, title, description, buttonText, image } = dropdownData[0];
+  const { items, title, description, buttonText, image } = dropdownData[selectedIndex];
 
   return (
     <div className="dropdown-content">

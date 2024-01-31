@@ -1,6 +1,7 @@
 /* Calculator Section */
 .calculator-section {
-  padding: 60px;
+  padding-inline: 8%;
+  padding-block: 1.5%;
 }
 
 .calc-container {

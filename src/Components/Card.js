@@ -70,7 +70,9 @@ export default function Card() {
   return (
     <section className="credit-cards">
       <div className="cards-info">
-        <p className="cards-section-heading-p1">
+        <p 
+          style={{fontWeight: 'bold'}}
+          className="cards-section-heading-p1">
           {cardData[currentCard].heading}
         </p>
         <p className="cards-section-heading-p2">
@@ -82,8 +84,8 @@ export default function Card() {
           <ul className="cards-section-ul">
             {cardData[currentCard].features.map((feature, index) => (
               <li className="cards-section-li" key={index}>
-                <p style={{fontWeight: 'bold', margin: '0', padding: '0'}} className="cards-section-p">{feature.text}</p>
-                <br style={{ margin: '0', padding: '0' }}/> {feature.subText}
+                <p style={{fontWeight: 'bold'}} className="cards-section-p">{feature.text}</p>
+                <p style={{paddingBottom: "10px"}}>{feature.subText}</p>
               </li>
             ))}
           </ul>

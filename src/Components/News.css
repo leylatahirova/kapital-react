@@ -1,9 +1,11 @@
 /* News Section */
 .latest-news {
     background-color: #E8ECF1;
-    padding: 30px;
+    padding: 3% 8% 3% 8%;
+    height: auto;
   }
   
+ 
   .news-heading {
     display: flex;
     flex-direction: row;
@@ -43,8 +45,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    gap: 30px;
+  
   }
   
   .news-col1,

@@ -37,10 +37,11 @@
   .cash-loan-heading-p1 {
     font-size: 36px;
     color: #2e3131;
+    font-weight: bold;
   }
   
   .cash-loan-heading-p2 {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 20px;
     color: #2e3131;
   }

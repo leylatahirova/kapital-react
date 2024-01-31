@@ -8,7 +8,7 @@
       padding-inline: 20px;
       padding-block: 20px;
     }
-  
+
     .bank-logo {
       width: 170px;
     }
@@ -31,6 +31,7 @@
     /* Banner Section */
     .promo-banner {
       padding-top: 220px;
+      padding-bottom: 140px;
     }
   
     .promo-banner-container {
@@ -40,12 +41,12 @@
   
     .banner-image {
       position: absolute;
-      bottom: 300px;
+      bottom: 370px;
+      padding-bottom: 20px;
     }
     .banner-image1{
-      width: 100px;
+      width: 300px;
     }
-   
   
     .banner-p {
       font-size: 10px;
@@ -77,6 +78,7 @@
       margin: 20px;
       top: 550px;
       left: 0px;
+      margin-top: 50px;
     }
   
     .operation-item {
@@ -99,7 +101,7 @@
   
     /* Calculator Section */
     .calculator-section {
-      padding: 30px;
+      padding: 20px;
     }
   
     .calc-container {
@@ -124,12 +126,12 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 100vw;
     } 
   
     .cards-section-button {
-     width: 480px;
+      width: 450px;
     }
+    
   
     .cards-section-ul {
       flex-direction: column;
@@ -140,12 +142,12 @@
     }
   
     .cards-section-image {
-      bottom: 350px;
+      bottom: 420px;
       right: 80px;
     }
 
     .cards-section-heading-p2 {
-      font-size: 18px;
+      font-size: 16px;
       width: 100%;
       color: #2e3131;
     }
@@ -159,33 +161,34 @@
       top: 30px;
     }
     .credit-cards {
+      justify-content: center;
+      align-items: center;
       padding-top: 200px;
     }
   
   
     /* Cash Loan Section */
+    .cash-loans{
+      justify-content: center;
+      align-items: center;
+    }
    
     .loan-info {
       padding: 40px 10px 160px 10px;
       align-items: first baseline;
       justify-content: flex-start;
     }
-  
-    .cash-loan-section-bottom {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+
     .cash-loan-section-li {
       padding-right: 0px;
     }
     .cash-loan-section-button {
-      width: 100vw;
+      width: 450px;
     }
   
     .cash-loan-section-image {
       bottom: 380px;
-      right: 10px;
+      right: 5px;
     }
   
     .cash-loan-section-div {
@@ -201,6 +204,7 @@
       text-align: center;
     }
   
+
     /* Information Section */
     .info-section1 {
       flex-direction: column;
@@ -360,7 +364,6 @@
     /* Card Section */
     .cards-info {
       padding: 580px 10px 160px 10px;
-      justify-content: flex-start;
     }
   
     .cards-section-bottom {
@@ -389,7 +392,7 @@
     }
   
     .cards-section-image {
-      bottom: 360px;
+      bottom: 400px;
       right: 320px;
     }
     .cards-section-heading-p2 {
@@ -446,9 +449,16 @@
       padding-top: 210px;
       text-align: center;
     }
+
+    /* Calculator Section */
+    .calculator-section {
+      padding-inline: 20px;
+      padding-block: 20px;
+    }
+  
       /* News Section */
       .latest-news {
-        padding: 20px 0px 0px 0px;
+        padding: 30px 20px 0px 20px;
       }
     
       .news-col {
@@ -461,11 +471,9 @@
         margin: 0px;
       }
     
-     
-    
       .news-heading {
         justify-content: space-between;
-        padding-inline: 40px;
+        
       }
    
      /* Currency Calculator Section */
@@ -529,11 +537,18 @@
       justify-content: center;
       align-items: center;
     }
+    .footer-container {
+      padding: 0;
+    }
   
     .row-footer {
       flex-wrap: wrap;
     }
-  
+    
+    .footer-social {
+      align-items: center;
+      justify-content: center;
+    }
     .footer-qr-code,
     .footer-title2 {
       display: none;
@@ -545,7 +560,6 @@
     }
   
     .col {
-      width: 35%;
       height: auto;
       margin: 36px;
     }
@@ -587,17 +601,14 @@
 
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1500px) {
 
-  .promo-banner, .main-menu, .main-header, .credit-cards, .cash-loans, .calculator-section, .info-section1, .latest-news, .currency-calculator {
-    padding-left: 200px;
-    padding-right: 200px;
+@media only screen and (min-width: 1600px) {
+
+  .promo-banner, .main-menu, .main-header, .credit-cards, .cash-loans, .calculator-section, .hr-opportunities, .online-payment, .latest-news, .currency-calculator {
+    padding-inline: 200px;
   }
-
-
-
 }
 
 
 
+  

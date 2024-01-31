@@ -6,8 +6,8 @@
     position: absolute;
     z-index: 999;
     transition: 0.3s ease all;
-    top: 58px;
-    left: -50px;
+    
+    transform: translate(-10%, 11%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
   
@@ -43,8 +43,6 @@
     color: #ffffff;
   }
   
-
-
   .dropdown-col1-li:hover{
     color:#f45369;
   }

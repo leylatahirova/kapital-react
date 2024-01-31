@@ -139,6 +139,7 @@ export default function Footer() {
             </div>
         </div>
     </div>
+    <div className="footer-container2">
     <div className="footer-social">
         <ul className="footer-social-list">
             <li className="footer-list">
@@ -178,7 +179,7 @@ export default function Footer() {
     <div className="footer-main-row">
         <div className="footer-row">
             <div>
-                <p className="b2" style={{color: "#ffffff"}}>© 2024 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</p>
+                <p className="b2" style={{color: "#ffffff", fontSize: "14px"}}>© 2024 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</p>
             </div>
             <div className="footer-row-logo">
                 <div>
@@ -206,6 +207,7 @@ export default function Footer() {
         <div className="b2">
             <p className="b1">“Kapital Bank” ASC (Bakı şəh., Nəsimi r-nu, Füzuli küç. 71) 05 noyabr 2018-ci il tarixli 244 nömrəli Bank Lisenziyası əsasında fəaliyyət göstərir.</p>
         </div>
+    </div>
     </div>
 </footer>
   );

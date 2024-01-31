@@ -1,8 +1,8 @@
 /* Menu Section */
   .main-menu {
     background-color: #E8ECF1;
-    padding-inline: 80px;
-    padding-block: 20px;
+    padding-inline: 8%;
+    padding-block: 1.5%;
   }
   
   .menu-container {
@@ -13,7 +13,7 @@
   }
   
   .menu-a {
-    font-size: 14px;
+    font-size: 13px;
     color: #2e3131;
     margin: 13px;
     text-decoration: none;
