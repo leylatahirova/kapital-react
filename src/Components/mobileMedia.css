@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* Header Section */
     .main-header {
       display: flex;
@@ -71,14 +71,13 @@
     }
   
     /* Operation Section */
-    .quick-operations {
+    section.quick-operations {
       flex-direction: column;
-      width: 90%;
+      width: 95%;
       padding: 0px;
-      margin: 20px;
-      top: 550px;
-      left: 0px;
-      margin-top: 50px;
+      position: absolute;
+      top: 630px;
+      left:15px;
     }
   
     .operation-item {
@@ -360,10 +359,6 @@
     }
 
     /* Operation Section */
-    .quick-operations {
-      top: 470px;
-      left: 50px;
-    }
 
     /* Card Section */
     .cards-info {

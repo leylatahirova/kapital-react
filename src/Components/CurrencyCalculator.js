@@ -12,7 +12,6 @@ export default function CurrencyCalculator() {
   const exchangeRates = {
     USD: { buy: 1.7, sell: 1.6 },
     EUR: { buy: 1.9, sell: 1.8 },
-    AZN: { buy: 1, sell: 1 },
   };
 
   const [convertedAmount, setConvertedAmount] = useState(amount);

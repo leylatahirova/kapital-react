@@ -1,5 +1,5 @@
 /* Operation Section */
-.quick-operations {
+section.quick-operations {
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -8,8 +8,9 @@
     background-color: #F9FAFB;
     padding: 27px;
     position: absolute;
-    top: 600px;
-    left: 65px;
+    left: 56px;
+    top: 580px;
+    z-index: 0;
   }
   
   .quick-operations :hover {
@@ -25,6 +26,7 @@
     width: 100vw;
     height: auto;
     padding: 24px;
+    text-align: center;
     border-radius: 8px;
     background-color: #FFFFFF;
     text-align: center;
@@ -36,4 +38,9 @@
     color: #2E3131;
     font-size: 18px;
     padding-top: 20px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    
   }
