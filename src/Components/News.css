@@ -31,6 +31,10 @@
   }
   
   .news-circle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #F45369;
     border-radius: 50%;
     width: 50px;
@@ -45,7 +49,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
   }
   
   .news-col1,
@@ -65,7 +68,7 @@
   .news-circle-p1 {
     font-size: 26px;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 30%;
     cursor: pointer;
   }
   .news-circle-p1:hover {

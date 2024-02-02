@@ -11,7 +11,7 @@ export default function CashLoans() {
       </div>
       <div className="cash-loan-section-bottom">
         <div className="cash-loan-section-image">
-          <img src={dailyLoan} width="540px" alt="" />
+          <img src={dailyLoan} alt="" />
         </div>
         <div className="cash-loan-section-div">
           <ul className="cash-loan-section-ul">

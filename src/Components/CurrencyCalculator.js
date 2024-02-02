@@ -105,7 +105,7 @@ export default function CurrencyCalculator() {
           </div>
           <p style={{ fontWeight: 300, paddingTop: "10px", paddingBottom: "10px" }}>Məbləği daxil edin</p>
           <table>
-            <tbody>
+            <tbody className='amount'>
               <tr>
                 <td className="td-3">{convertedAmount.toFixed(2)}</td>
                 <td className="td-4">{toCurrency}</td>

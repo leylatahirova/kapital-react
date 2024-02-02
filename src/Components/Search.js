@@ -13,7 +13,7 @@ export default function Search({ handleCloseButtonClick }) {
         </div>
         <div className="row-2">
           <p style={{ color: "#ef3d42", fontSize: "16px" }}>Axtar</p>
-          <i className="fa-solid fa-circle-xmark" style={{ color: "#979898", fontSize: "22px", cursor: 'pointer' }} onClick={handleCloseButtonClick}  ></i>
+          <i className="fa-solid fa-circle-xmark" style={{ color: "#979898", fontSize: "22px", cursor: 'pointer', paddingBottom:"12px" }} onClick={handleCloseButtonClick}  ></i>
         </div>
       </div>
       <div className="search-col1">

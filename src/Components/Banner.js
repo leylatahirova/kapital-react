@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import './Banner.css';
 import bannerImage1 from '../kptl/kb-life1703580859.png';
 import bannerImage2 from '../kptl/depozit.png';

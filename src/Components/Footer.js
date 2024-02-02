@@ -140,11 +140,11 @@ export default function Footer() {
         </div>
     </div>
     <div className="footer-container2">
-    <div className="footer-social">
+     <div className="footer-social">
         <ul className="footer-social-list">
             <li className="footer-list">
                 <a href="https://www.kapitalbank.az/" style={{ color: '#ffffff', fontSize: '22px', textDecoration: 'none', fontWeight: 700 }}>
-                    <i className="fa-solid fa-phone-flip" style={{ color: '#ef3e42' }}></i>
+                    <i className="fa-solid fa-phone-flip" style={{ color: '#ef3e42', paddingRight: "10px" }}></i>
                                                  196
                 </a>
              </li>
@@ -174,8 +174,8 @@ export default function Footer() {
                 </a>
             </li>
      </ul>
-</div>
-    <div className="footer-line"></div>
+</div> 
+     <div className="footer-line"></div> 
     <div className="footer-main-row">
         <div className="footer-row">
             <div>
@@ -207,7 +207,7 @@ export default function Footer() {
         <div className="b2">
             <p className="b1">“Kapital Bank” ASC (Bakı şəh., Nəsimi r-nu, Füzuli küç. 71) 05 noyabr 2018-ci il tarixli 244 nömrəli Bank Lisenziyası əsasında fəaliyyət göstərir.</p>
         </div>
-    </div>
+    </div> 
     </div>
 </footer>
   );
