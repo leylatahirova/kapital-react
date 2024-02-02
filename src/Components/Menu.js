@@ -41,9 +41,9 @@ export default function Menu({ isSearchOpen }) {
             <a className="menu-a" href="https://www.kapitalbank.az/loans">
               KREDİTLƏR
             </a>
-            {activeItem === "loans" && (
+            {/* {activeItem === "loans" && (
               <MenuDropdown selectedIndex={1} style={dropdownStyles.cards} />
-            )}
+            )} */}
           </li>
           <li className="menu-li">
             <a
@@ -61,9 +61,9 @@ export default function Menu({ isSearchOpen }) {
             <a className="menu-a" href="https://www.kapitalbank.az/deposits">
               DEPOZİTLƏR
             </a>
-            {activeItem === "deposits" && (
+            {/* {activeItem === "deposits" && (
               <MenuDropdown selectedIndex={2} style={dropdownStyles.deposits} />
-            )}
+            )} */}
           </li>
           <li
             className={`menu-li ${
@@ -78,9 +78,9 @@ export default function Menu({ isSearchOpen }) {
             >
               PUL KÖÇÜRMƏLƏRİ
             </a>
-            {activeItem === "moneyTransfer" && (
+            {/* {activeItem === "moneyTransfer" && (
               <MenuDropdown selectedIndex={3} style={dropdownStyles.moneyTransfer} />
-            )}
+            )} */}
           </li>
           <li 
               className={`menu-li ${
@@ -94,9 +94,9 @@ export default function Menu({ isSearchOpen }) {
             >
               ONLAYN XİDMƏTLƏR
             </a>
-            {activeItem === "onlineServices" && (
+            {/* {activeItem === "onlineServices" && (
               <MenuDropdown selectedIndex={4} style={dropdownStyles.onlineServices} />
-            )}
+            )} */}
           </li>
           <li className="menu-li">
             <a
