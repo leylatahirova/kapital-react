@@ -116,21 +116,20 @@ export default function Footer() {
                         <li className="footer-links-li">
                             <a className="footer-links-li-a"
                                 href="https://play.google.com/store/apps/details?id=az.kapitalbank.mbanking">
-                                <img src="https://www.kapitalbank.az/assets/static/img/play-store.svg" width="26px"
+                                <img src="https://www.kapitalbank.az/assets/static/img/play-store.svg" width="26px" style={{paddingBottom: "10px"}}
                                     alt=""/>
                                 <p className="footer-links-p">Google Play <br/>Mobil tətbiqi yüklə </p>
                             </a>
                         </li>
                         <li className="footer-links-li">
                             <a className="footer-links-li-a" href="https://apps.apple.com/us/app/birbank/id1293207342">
-                                <img src="https://www.kapitalbank.az/assets/static/img/app-store.svg" width="26px"
-                                    alt=""/>
+                                <img src="https://www.kapitalbank.az/assets/static/img/app-store.svg" width="26px" style={{paddingBottom: "10px"}} alt=""/>
                                 <p className="footer-links-p">App Store <br/> Mobil tətbiqi yüklə </p>
                             </a>
                         </li>
                         <li className="footer-links-li">
                             <a className="footer-links-li-a" href="https://appgallery.huawei.com/#/app/C102156391">
-                                <img src="https://www.kapitalbank.az/assets/static/img/app-gallery.svg" width="26px" alt=""/>
+                                <img src="https://www.kapitalbank.az/assets/static/img/app-gallery.svg" width="26px" style={{paddingBottom: "10px"}} alt=""/>
                                 <p className="footer-links-p">App Gallery<br/>Mobil tətbiqi yüklə </p>
                             </a>
                         </li>

@@ -1,16 +1,17 @@
 /* Operation Section */
-.quick-operations {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-    background-color: #F9FAFB;
-    padding: 27px;
-    position: absolute;
-    top: 600px;
-    left: 65px;
-  }
+section.quick-operations {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #F9FAFB;
+  padding: 27px;
+  position: absolute;
+  left: 56px;
+  top: 580px;
+  z-index: 0;
+}
   
   .quick-operations :hover {
     transform: scale(1.05);

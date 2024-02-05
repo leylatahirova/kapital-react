@@ -82,7 +82,7 @@ td {
   height: 40px;
   border-radius: 10px;
   border: none;
-  margin-bottom: 10px;
+  outline: none;
 }
 
 .currency-calculator-buttons {
