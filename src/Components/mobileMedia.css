@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* Header Section */
   .main-header {
     display: flex;
@@ -17,11 +17,11 @@
     display: none;
   }
 
-  .mobileButton{
+  .mobileButton {
     position: absolute;
     top: 20px;
     right: 20px;
-   }
+  }
 
   /* Menu Section */
   .main-menu {
@@ -41,10 +41,10 @@
 
   .banner-image {
     position: absolute;
-    bottom: 370px;
+    bottom: 300px;
     padding-bottom: 20px;
   }
-  .banner-image1{
+  .banner-image1 {
     width: 300px;
   }
 
@@ -71,14 +71,14 @@
   }
 
   /* Operation Section */
-  section.quick-operations {
-    flex-direction: column;
-    width: 95%;
-    padding: 0px;
-    position: absolute;
-    top: 630px;
-    left:15px;
-  }
+section.quick-operations {
+  flex-direction: column; 
+  padding: 27px;
+  position: absolute;
+  left: 5%;
+  top: 630px;
+  z-index: 0;
+}
 
   .operation-item {
     width: 95%;
@@ -121,16 +121,15 @@
     padding: 360px 10px 160px 10px;
   }
 
-   .cards-section-bottom {
+  .cards-section-bottom {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  } 
+  }
 
   .cards-section-button {
     width: 100%;
   }
-  
 
   .cards-section-ul {
     flex-direction: column;
@@ -154,7 +153,7 @@
     left: 20px;
     top: 30px;
   }
-  
+
   .cards-section-chevron2 {
     right: 20px;
     top: 30px;
@@ -162,7 +161,6 @@
   .credit-cards {
     padding-top: 200px;
   }
-
 
   /* Cash Loan Section */
   .loan-info {
@@ -183,16 +181,14 @@
 
   .cash-loan-section-bottom {
     justify-content: center;
-    
   }
-  
+
   .cash-loan-section-ul {
     flex-direction: column;
-   
+
     padding-top: 210px;
     text-align: center;
   }
-
 
   /* Information Section */
   .info-section1 {
@@ -205,7 +201,7 @@
     padding: 20px 20px 160px 20px;
     border-top-right-radius: 0px 0px;
     border-bottom-right-radius: 0px 0px;
-  }  
+  }
 
   .hr-opportunities {
     width: 100%;
@@ -266,7 +262,6 @@
     padding-inline: 0%;
     padding-block: 0%;
   }
- 
 
   .row-footer {
     flex-wrap: wrap;
@@ -280,7 +275,6 @@
   .footer-row-logo {
     flex-wrap: wrap;
     width: 90%;
-   
   }
 
   .col {
@@ -307,7 +301,7 @@
     text-align: center;
   }
 
-  .b2{
+  .b2 {
     width: 90%;
     text-align: center;
   }
@@ -323,8 +317,7 @@
     flex-direction: row;
     gap: 20px;
   }
- 
- 
+
   .calc-right-button {
     padding: 10px;
     width: 100%;
@@ -332,9 +325,7 @@
   }
 }
 
-
-
-@media (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 768px) and (max-width: 1024px) {
   .main-header {
     padding-inline: 20px;
     padding-block: 20px;
@@ -345,24 +336,25 @@
   .bank-logo {
     width: 170px;
   }
-  .mobileButton{
-   position: absolute;
-   top: 20px;
-   right: 20px;
+  .mobileButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
   }
- 
+
   .promo-banner {
     padding: 30px 20px 130px 20px;
   }
-  .banner-image1{
+  .banner-image1 {
     width: 400px;
   }
 
   /* Operation Section */
-  section.quick-operations {
-    top: 430px;
-    left:15px;
+  .quick-operations {
+    top: 470px;
+    left: 50px;
   }
+
   /* Card Section */
   .cards-info {
     padding: 580px 10px 160px 10px;
@@ -406,7 +398,7 @@
     left: 50px;
     top: 30px;
   }
-  
+
   .cards-section-chevron2 {
     right: 50px;
     top: 30px;
@@ -415,9 +407,8 @@
     padding-top: 200px;
   }
 
-
   /* Cash Loan Section */
- 
+
   .loan-info {
     padding: 40px 10px 160px 10px;
     align-items: first baseline;
@@ -436,7 +427,7 @@
 
   .cash-loan-section-image {
     bottom: 380px;
-   left: 190px;
+    left: 190px;
   }
 
   .cash-loan-section-div {
@@ -458,24 +449,22 @@
     padding-block: 20px;
   }
 
-    /* News Section */
-    .latest-news {
-      padding: 30px 20px 0px 20px;
-    }
-  
-  
-    .news-col1 {
-      width: 80%;
-      margin: 0px;
-    }
-  
-    .news-heading {
-      justify-content: space-between;
-      
-    }
- 
-   /* Currency Calculator Section */
-   .currency-calculator {
+  /* News Section */
+  .latest-news {
+    padding: 30px 20px 0px 20px;
+  }
+
+  .news-col1 {
+    width: 80%;
+    margin: 0px;
+  }
+
+  .news-heading {
+    justify-content: space-between;
+  }
+
+  /* Currency Calculator Section */
+  .currency-calculator {
     padding: 30px 15px 10px 15px;
   }
 
@@ -506,19 +495,15 @@
     border-radius: none;
   }
 
-
-
   .hr-opportunities {
     width: 100%;
     padding: 20px 20px 160px 20px;
   }
 
- 
-  .information-col1-p2, .information-col2-p2 {
+  .information-col1-p2,
+  .information-col2-p2 {
     width: 100%;
   }
-  
-
 
   /* Footer Section */
   .main-footer {
@@ -537,7 +522,7 @@
   .row-footer {
     flex-wrap: wrap;
   }
-  
+
   .footer-social {
     align-items: center;
     justify-content: center;
@@ -567,7 +552,7 @@
   .footer-line {
     margin-top: 30px;
     margin-bottom: 30px;
-    width:100%;
+    width: 100%;
   }
 
   .b1 {
@@ -583,55 +568,53 @@
     justify-content: center;
   }
 
- 
- 
   .calc-right-button {
     padding: 10px;
     width: 100%;
     height: auto;
   }
-  
 }
-
 
 @media only screen and (max-width: 1250px) {
-.online-payment-div3 {
-  bottom: 0px;
-  left: 250px;
-}
+  .online-payment-div3 {
+    bottom: 0px;
+    left: 250px;
+  }
 
-.hr-opportunities-div3 {
-  bottom: 0px;
-  left: 250px;
+  .hr-opportunities-div3 {
+    bottom: 0px;
+    left: 250px;
+  }
 }
-}
-
 
 @media only screen and (max-width: 768px) {
-.online-payment-div3 {
-  bottom: 0px;
-  left: 120px;
-}
+  .online-payment-div3 {
+    bottom: 0px;
+    left: 120px;
+  }
 
-.hr-opportunities-div3 {
-  bottom: 0px;
-  left: 130px;
+  .hr-opportunities-div3 {
+    bottom: 0px;
+    left: 130px;
+  }
 }
-}
-
 
 @media only screen and (min-width: 1600px) {
-
-.promo-banner, .main-menu, .main-header, .credit-cards, .cash-loans, .calculator-section, .hr-opportunities, .online-payment, .latest-news, .currency-calculator {
-  padding-inline: 200px;
-}
+  .promo-banner,
+  .main-menu,
+  .main-header,
+  .credit-cards,
+  .cash-loans,
+  .calculator-section,
+  .hr-opportunities,
+  .online-payment,
+  .latest-news,
+  .currency-calculator {
+    padding-inline: 200px;
+  }
 
   /* Operation Section */
   .quick-operations {
-    top: 650px; 
+    top: 650px;
   }
-
 }
-
-
-

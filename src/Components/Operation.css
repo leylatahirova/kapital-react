@@ -5,36 +5,38 @@ section.quick-operations {
   width: 90%;
   height: auto;
   border-radius: 10px;
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
   padding: 27px;
   position: absolute;
   left: 56px;
   top: 580px;
   z-index: 0;
 }
-  
-  .quick-operations :hover {
-    transform: scale(1.05);
-    transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
-  }
-  
-  .operations-a {
-    text-decoration: none;
-  }
-  
-  .operation-item {
-    width: 100vw;
-    height: auto;
-    padding: 24px;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-    text-align: center;
-    margin: 16px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  
-  .operations-p {
-    color: #2E3131;
-    font-size: 18px;
-    padding-top: 20px;
-  }
+
+.quick-operations :hover {
+  transform: scale(1.05);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.operations-a {
+  text-decoration: none;
+}
+
+.operation-item {
+  width: 100vw;
+  height: auto;
+  padding: 24px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.operations-p {
+  color: #2e3131;
+  font-size: 18px;
+  padding-top: 20px;
+}
+

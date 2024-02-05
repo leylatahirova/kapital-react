@@ -12,6 +12,7 @@ import CurrencyCalculator from './Components/CurrencyCalculator';
 import Footer from './Components/Footer';
 import './App.css';
 import './Components/mobileMedia.css';
+import './Components/TabletMedia.css';
 
 
 

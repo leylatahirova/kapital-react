@@ -1,0 +1,290 @@
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .main-header {
+      padding-inline: 20px;
+      padding-block: 20px;
+    }
+    .main-menu {
+      display: none;
+    }
+    .bank-logo {
+      width: 170px;
+    }
+    .mobileButton{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+    }
+   
+    .promo-banner {
+      padding: 30px 20px 130px 20px;
+    }
+    .banner-image1{
+      width: 400px;
+    }
+  
+    /* Operation Section */
+    section.quick-operations {
+      top: 430px;
+      left:5%;
+    }
+    /* Card Section */
+    .cards-info {
+      padding: 580px 10px 160px 10px;
+    }
+  
+    .cards-section-bottom {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cards-section-button {
+      width: 100vw;
+    }
+  
+    .cards-section-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cards-section-ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 210px;
+      text-align: center;
+    }
+  
+    .cards-section-image {
+      bottom: 400px;
+      right: 320px;
+    }
+    .cards-section-heading-p2 {
+      font-size: 18px;
+      width: 100%;
+      color: #2e3131;
+    }
+    .cards-section-chevron1 {
+      left: 50px;
+      top: 30px;
+    }
+    
+    .cards-section-chevron2 {
+      right: 50px;
+      top: 30px;
+    }
+    .credit-cards {
+      padding-top: 200px;
+    }
+  
+  
+    /* Cash Loan Section */
+   
+    .loan-info {
+      padding: 40px 10px 160px 10px;
+      align-items: first baseline;
+      justify-content: flex-start;
+    }
+  
+    .cash-loan-section-bottom {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cash-loan-section-button {
+      width: 100vw;
+    }
+  
+    .cash-loan-section-image {
+      bottom: 380px;
+     left: 190px;
+    }
+  
+    .cash-loan-section-div {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cash-loan-section-ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 210px;
+      text-align: center;
+    }
+  
+    /* Calculator Section */
+    .calculator-section {
+      padding-inline: 20px;
+      padding-block: 20px;
+    }
+  
+      /* News Section */
+      .latest-news {
+        padding: 30px 20px 0px 20px;
+      }
+    
+    
+      .news-col1 {
+        width: 80%;
+        margin: 0px;
+      }
+    
+      .news-heading {
+        justify-content: space-between;
+        
+      }
+   
+     /* Currency Calculator Section */
+     .currency-calculator {
+      padding: 30px 15px 10px 15px;
+    }
+  
+    .currency-calculator-col1 {
+      display: none;
+    }
+  
+    .currency-calculator-col2 {
+      width: 100%;
+    }
+  
+    .currency-information-col1-p3 {
+      padding: 30px 0px 30px 0px;
+    }
+  
+    .currency-calculator-input {
+      width: 340px;
+    }
+    /* Information Section */
+    .info-section1 {
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+  
+    .online-payment {
+      width: 100%;
+      padding: 20px 20px 160px 20px;
+      border-radius: none;
+    }
+  
+  
+  
+    .hr-opportunities {
+      width: 100%;
+      padding: 20px 20px 160px 20px;
+    }
+  
+
+   
+    .information-col1-p2, .information-col2-p2 {
+      width: 100%;
+    }
+    
+  
+      /* Operation Section */
+
+  
+  
+    /* Footer Section */
+    .main-footer {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer-container {
+      padding: 0;
+    }
+  
+    .row-footer {
+      flex-wrap: wrap;
+    }
+    
+    .footer-social {
+      align-items: center;
+      justify-content: center;
+    }
+    .footer-qr-code,
+    .footer-title2 {
+      display: none;
+    }
+  
+    .footer-row-logo {
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+  
+    .col {
+      height: auto;
+      margin: 36px;
+    }
+  
+    .footer-row {
+      flex-direction: column;
+      padding-bottom: 0px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .footer-line {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width:100%;
+    }
+  
+    .b1 {
+      padding-top: 30px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer-main-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+   
+   
+    .calc-right-button {
+      padding: 10px;
+      width: 100%;
+      height: auto;
+    }
+    
+  }
+  
+  
+  @media only screen and (max-width: 1250px) {
+  .online-payment-div3 {
+    bottom: 0px;
+    left: 250px;
+  }
+  
+  .hr-opportunities-div3 {
+    bottom: 0px;
+    left: 250px;
+  }
+  }
+
+  
+  @media only screen and (min-width: 1600px) {
+
+    .promo-banner, .main-menu, .main-header, .credit-cards, .cash-loans, .calculator-section, .hr-opportunities, .online-payment, .latest-news, .currency-calculator {
+      padding-inline: 200px;
+    }
+    
+      /* Operation Section */
+      .quick-operations {
+        top: 650px; 
+      }
+    
+    }
+    
